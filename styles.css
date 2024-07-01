@@ -1,0 +1,57 @@
+body {
+    background-color: #ffffff;
+}
+
+.card {
+    border: 0;
+}
+
+.card-action {
+    background-color: #F0F6FE;
+    max-height: 50px;
+}
+
+.card-title {
+    color: #3F5075;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+
+.card-icon {
+    color: #99A9BA;
+    margin-left: -17px;
+    margin-top: -20px;
+}
+
+.card-subtitle {
+    color: #3F5075;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: -28px;
+}
+
+#fab-button {
+    background-color: #F0F6FF;
+}
+
+#fab-button .material-icons {
+    color: #9FB0C1;
+}
+
+#main-card {
+    border-radius: 8px;
+    border: 3px solid #DDC0A2;
+    border-bottom: 8px solid #DDC0A2;
+}
+
+#hide {
+    display: none;
+    
+}
+
+#card:hover #hide {
+    display: block;
+}
